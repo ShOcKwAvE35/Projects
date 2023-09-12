@@ -27,11 +27,56 @@ You must also define some coordinates to be able to place the clickable area ont
 Shape="rect"
 The coordinates for shape="rect" come in pairs, one for the x-axis and one for the y-axis.
 So, the coordinates 34,44 is located 34 pixels from the left margin and 44 pixels from the top:
-</pre><h3>Prin aceasta metoda vom face ca obiectul din imagine sa devina un link pe care se poate face click.</h3>
+</pre>
+<h3>Prin aceasta metoda vom face ca obiectul din imagine sa devina un link pe care se poate face click.</h3>
 <p>O metoda mai simpla este cu ajutorul javascript ca in urmatorul exemplu<br><h4>Nu inteleg cu se gasesc coordonatele</h4></p>
+<pre>EXEMPLU 
+  area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
 
+/map>                                           (Voi sterge < pentru a vedea codul in pagina)
 
-  
+script>
+function myFunction() {
+  alert("You clicked the coffee cup!");
+}
+/script> 
+</pre>
+
+<p><h2>Background Image</h2></p>
+<pre style="background-image: url('images.jpg');">
+Dupa conceptele lumii noi trebuie sa traim viata ca o inchisoare nejungand niciodata la adevaratele noastre valori
+Societatea ne vre slabi tristi nefericiti.
+Ascunzand de noi adevarul 
+despre crearea lumii si suntem mintiti pentru a fi inrobiti.
+Din punctul meu de vedere omul e o minune.
+Dar se pierde in acest haos.
+Ore suntem sau vom fi judecati pentru accest fel de a ne trai viata ,pentru a noastra nepasare.
+Eu stiu ca in sinee fiecare om este constient de aceste lucruri dar ei nu baga in seama acest sentiment.
+
+</pre>
+<p>Se poate scrie si in CSS 
+ p{ 
+  background-image:url('img_.jpg');
+ }
+</p>Background Image on a Page</p>
+<pre>Se va scrie in CSS
+ body {
+  background-image: url('img.jpg');
+ }
+ Background Repeat
+If the background image is smaller than the element, 
+the image will repeat itself, horizontally and vertically, 
+until it reaches the end of the element:
+To avoid the background image from repeating itself, 
+set the background-repeat property to no-repeat.
+body {
+  background-image: url('example_img_girl.jpg');
+  background-repeat: no-repeat;}
+</pre>In pagina index2 am adaugat imaginea ca background 
+Some browsers or devices may not support all image formats. By using the <picture> element, you can add images of all formats, and the browser will use the first format it recognizes, and ignore any of the following elements
+  If you have a small screen or device, it is not necessary to load a large image file. The browser will use the first <source> element with matching attribute values, and ignore any of the following elements.
+
+</pre>
 
 </body>
 </html>
