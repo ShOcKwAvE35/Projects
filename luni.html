@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+//	 9.4.2023   HTML style
+
+<p>Prin urmatoarea comanda trasam o linie in culoarea dorita de noi</p> 
+<p style="background-color:powderblue;">This is a apple.</p>
+
+<p>Cuvantul nostru incadrat va avea culoarea dorita de mine</p>
+<p style="color:blue;">This is a OZN.</p>
+
+<p>Font-family:</p>
+<p style="font-family:verdana;">This is my favorite items.</p>
+<h1 style="font-family:courier;">This is yours.</h1>
+
+<p>Test size</p>
+
+<h1 style="font-size:300% ";>Is a small phone.</h1>
+<p style="font-size:160%";>this a big ball.</p>
+
+<p>Prin urmatoarea comanda alineam textul in centrul sitului</p>
+<h1 style="text-align:center;">I am the beast programer.</h1>
+<p style="text-align:center;">It's raining outside at the moment.</p>
+
+<p>Formatting elements were designed to display special types of text:</p>
+
+<p><b> - Bold text</b></p>
+<p><strong> - Important text</strong></p>
+<p><i> - Italic text</i></p>
+<p><em> - Emphasized tex</em></p>
+<p><mark> - Marked text</mark></p>
+<p><small> - Smaller text</small></p>
+<p><del> - Deleted text</del></p>
+<p><ins> - Inserted text</ins></p>
+<p><sub> - Subscript text</sub></p>
+<p><sup> - Superscript text</sup></p>
+
+
+<p>In this chapter we will go through the <blockquote>,<q>, <abbr>, <address>, <cite>, and <bdo> HTML elements.</p>
+
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+</blockquote>
+
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+<address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+<bdo dir="rtl">This text will be written from right to left</bdo>
+
+<!-- Voi fi cel mai bun 
+sunt de neoprit .Acest text va fi adaugat ca coment
+-->
+
+<p>ASA INCADRAM UN TEXT IN CHENAR DE CULOARE</p>
+
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+
+<p>varoarea culorilor</p>
+
+<pre>RGB (red green blue)<br>
+ex;pentru rosu punem - 255,0,0
+   pentru verde - 60,179,113
+   albastru-0,0,255
+RGBA( RED,GREEN,BLUEE,ALPHA)
+The alpha parameter is a  number between 0.0(fully transparent) and 1.0(not transparent at all):
+din aceastea trei cream toate celelante culori 
+</pre>
+<h1 style="background-color:rgb(255, 99, 71);">I am very strong</h1>
+<h1 style="background-color:#ff6347;">I am very strong</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">I am very strong</h1>
+
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">I am very strong</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">I am very strong</h1>
+
+<pre>HEX COLOR VALUES
+where rr(red,gg(green) and bb(blue) #rrggbb ,#ff0000(red),#00ff00
+
+HSL (hue, saturation ,lightness)
+hue is a degree on the color wheel from 0 to 360.0 is red ,120 is green,and 240 is blue
+saturation is a percentage value 0% means a shade of gray, and 100% is the full color
+lightness is also a pecentage value 0% is black , and 100% is white </pre>
+
+<style>
+body{background-color:powderblue;}
+h1 {color:blue;}
+p  {color:red;}
+</style>
+
+<p>LINKUL CATRE UN FISIER CSS SE SCRIE IN HEAD ;---<link rel="stylesheet" href="styles.css">
+<pre>in fisierul css se scrie colors fonts and sizes unui element ca in exemplul urmator
+                 
+                       EX--h1{ 
+                              color:blue;
+                              font-family:verdana;
+                              font-size:300%;
+                               
+<pre>DACA AVEM MAI MULTE ELEMENTE <P> LE ATRIBUIM TUTUROR ACELEASI VALORI 
+ VOM ATRIBUI elementului <p> un chenar adaugand si paddding vom face un chenar mai mare in functie de nevoi in exemplu voi folosi de 30px;
+  voi adauga si "margin: 50px;"(ii va atribui lui <p> margine
+  
+              ex;-p{
+                    border: 2px solid powderblue;
+                    pading: 30px;
+                    }
+</pre>
+
+<pre> CUM SE ATRIBUIE UNUI TEXT LINKUL catre o pagina web 
+    <a href="https://www.youtube.com/watch?v=2fkDIUV3Y9E" target="_blank">Este un site web</a>
+ Absolute url
+  Both examples above are using an absolute URL(a full web adress) in the "href" attribute 
+Relative urls
+A local link( a link to a page withing the same website) is specified with a "relative Url" without the "https://www"part):
+
+<p>NU INTELEG CUM MAI EXACT SAU CE TREBUIE SA ADAUG LA "RELATIVE "</p>
+
+<h3> Image as a link</h3>
+<pre><a href="default.asp"><img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+                          (numele initial al img) (descrierea)        (inaltimea si latimea imaginii)
+
+<p> pentru a incadra o imagine de pe laptop ea trebuie sa fie in acelasi fisier ( am facut exemplu imagine.html si style image.css)</p>
+
+<h3>LInk to an email address</h3>
+<p><a href="mailto:someone@example.com">Send email</a></p>
+
+<h3>Button as a link</h3>
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+</body>
+</html>

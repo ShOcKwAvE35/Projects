@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Cherish
+- Font Author: Copyright 2004-2021 The Cherish Project Authors (https://github.com/googlefonts/cherish)
+- Font Source: http://fonts.gstatic.com/s/cherish/v8/ll88K2mXUyqsDsTN5iDCI6IJjg8.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
