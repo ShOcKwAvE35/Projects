@@ -25,6 +25,7 @@
                 const starRect = stea.getBoundingClientRect();
                 
                 // Verificăm dacă steaua se suprapune cu soarele
+                //Aparent codul transmis de cg nu functioneaza trebuie sa caut alta metoda
                 if (
                     starRect.left + starRect.width < sunRect.left ||
                     starRect.left > sunRect.left + sunRect.width ||

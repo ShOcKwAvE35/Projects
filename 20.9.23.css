@@ -1,0 +1,15 @@
+body {
+    background-image: url(Earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: none;
+}
+.paragraf-2{
+    font-size: 16px;
+    color:white;
+    border: 1px solid white
+}
+.paragraf-1 {
+    font-size: 15px;
+    color:aqua;
+}
