@@ -6,14 +6,19 @@
     <link rel="stylesheet" href="20.9.23.css">
 </head>
 <body>
-    <p class="paragraf-2"style="text-align:center;">Thea earth</p>
+    <br>
+    <br>
+    <br>
+    <h2 class="paragraf-2"style="text-align:center;">Thea earth</p>
+    <br>
+    <br>
     <p class="paragraf-1">Indiferent de câte obstacole întâlnești,<span style="border:2px solid white"> NICIODATA</span> să nu îți pierzi încrederea în sine și vise</p>
     
     <div style="background-color: rgb(25, 23, 19);color:white;padding:20px;">
         <h3>Our planet</h3>
         <p class="paragraf-1"><span style="color:rgb(0, 255, 38);font-weight:bold;">Humans and the Earth</span> share a profound and subtle energetic connection that spans millennia. We are tethered to nature and our planet through electromagnetic radiation and geophysical energy. This subconscious interaction impacts our well-being and mental balance, potentially deepening our connection to the natural environment and instilling a sense of peace and harmony in our increasingly fast-paced modern world.</p>
     </div>
-    <pre style="color: azure;">
+   /* <pre style="color: azure;">
         Aici am adaugat un text am dat un style background-color 
         Am schimbat si culoarea la cuvintele dorite de mine intr-un paragraf
         Vom vom incadra he2 si p in div(este un element pentru a grupa si structura continutul paginii)
@@ -25,11 +30,11 @@
 
     </pre>
     <div class="city">
-        <h3>Canada</h3>
+        <h3  class="title">Canada</h3>
         <p>În Canada, renii călătoresc pe pajiști albe, sub lumina magică a aurorei boreale. Acest spectacol natural fermecător îi atrage pe călători din întreaga lume, dornici să asiste la acest dans luminos în ceruri, în mijlocul unei ierni înzăpezite. Locuitorii locurilor consideră aurora boreală un dar de la zeii nordici, o amintire a frumuseții și misterului naturii care definește Canada.</p>
     </div>
     <div class="city">
-        <h3>Japonia</h3>
+        <h3 class="title">Japonia</h3>
         <p>În vremuri străvechi, în inima Japoniei, trăia o tânără prințesă numită Sakura. Ea era cunoscută pentru frumusețea ei și dragostea pentru natură. Într-o primăvară, Sakura a primit o floare de cireș din partea unui spiriduș, iar această floare a avut puteri magice. Fiecare petală a cireșului înflorit aducea bucurie și speranță în inimile oamenilor.
            O legenda spune că Sakura a aruncat petalele de cireș în vânt, iar ele s-au răspândit în toate colțurile țării, aducând pace și armonie. De atunci, cireșii înfloresc în fiecare primăvară, amintindu-ne că frumusețea și bunătatea pot schimba lumea.</p>
         </div>
@@ -37,10 +42,30 @@
             in urmatorul exemplu voi stiliza ssi voi atribui o clasa elementului span>
 
         </pre>
-        <h1><span class="note">Înălțându-te:</span> Inspirația călătoriei tale spre succes"</h1>
+        <h1 class="title"><span class="note">Înălțându-te:</span> Inspirația călătoriei tale spre succes"</h1>
         <p>
             Viața este o călătorie plină de provocări și oportunități. În momentele dificile, putem găsi puterea de a merge mai departe în interiorul nostru. Încrederea în sine, perseverența și înțelepciunea sunt cheile pentru a depăși obstacolele. Cu fiecare greutate învinsă, creștem și devenim mai puternici. În lumea plină de schimbări rapide, fiecare zi este o șansă de a învăța, a evolua și a îmbrățișa noi aventuri.
              <span class="text">Amintiți-vă că fiecare eșec este doar un pas către succes</span>, iar visele devin realitate prin muncă asiduă și credință. Cu pasiune și determinare, puteți atinge orice vă propuneți și inspira pe cei din jur să facă la fel. Vivez la vie! (Trăiește viața!)</p>
+        
+           <button onclick="toggleElements()">Hide and show me elements</button>
+             <h3>1."Ascensiunea Tehnologiei: Impactul Transformării Digitale asupra Societății"</h3>
+             <p class="vise">În era digitală în continuă expansiune, tehnologia joacă un rol central în viața noastră de zi cu zi. Această ascensiune a tehnologiei a adus cu ea atât beneficii cât și provocări semnificative. Societatea se confruntă cu schimbări radicale în domenii precum comunicare, economie și educație, iar acest titlu examinează cum această transformare digitală reconfigurează lumea în care trăim.</p>
+             <h3>2."Revoluția Sănătății Mintale: Transformarea Perspectivei Asupra Bunăstării Psihice"</h3>
+               <p class="vise">Sănătatea mintală a devenit un subiect din ce în ce mai important în societatea modernă. Acest titlu explorează evoluția noastră în înțelegerea și gestionarea sănătății mintale, de la stigmatizare la acceptare și sprijin. Cu inovații în tratamente și terapii, oamenii își schimbă perspectiva asupra sănătății mintale și recunosc importanța îngrijirii echilibrate a minții și a corpului pentru o viață sănătoasă și fericită.</p>
+             <h3>3."Explorarea Adâncimilor Oceanului: Misterul Submarinelor Abisale"</h3>
+              <p class="vise">Oricât de mult am progresat în ceea ce privește explorarea spațiului cosmic, oceanele planetei noastre rămân în mare parte necunoscute. Această lucrare propune o călătorie virtuală în adâncimile oceanului pentru a descoperi submirile abisale, cu ecosistemele lor unice și secretele pe care le ascund. Cu tehnologii avansate și o curiozitate nestăvilită, cercetătorii se aventurează în cele mai adânci și mai misterioase locuri ale Pământului.</p>
+        <script>
+            function toggleElements() {
+                var x = document.getElementsByClassName("vise");
+                for(var i = 0; i < x.length; i++) {
+                if (x[i].style.display === "none") 
+                    x[i].style.display = "block"
+                 else {
+                    x[i].style.display = "none";
+                 }}}
+           
+        
+        </script>
 
 </body>
 </html>

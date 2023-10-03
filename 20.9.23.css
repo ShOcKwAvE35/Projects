@@ -34,3 +34,19 @@ p {
     color:aqua;
     font-size: 120%;
 }
+.title {
+    background-color:rgb(37, 138, 67);
+    padding: 10px;
+    width: 300px;
+}
+button {
+    background-color:rgb(126, 67, 155);
+    color:black;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(222, 222, 222);
+}
