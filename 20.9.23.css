@@ -4,10 +4,11 @@ body {
     background-size: cover;
     filter: none;
 }
-.paragraf-2{
-    font-size: 16px;
-    color:white;
-    border: 1px solid white
+#myHeader{
+    background-color: aqua;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
 }
 .paragraf-1 {
     font-size: 15px;
@@ -49,4 +50,8 @@ button {
 }
 button:hover {
     background-color: rgb(222, 222, 222);
+}
+h2 {
+    color: rgb(212, 145, 20);
+    text-align: center;
 }
