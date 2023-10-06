@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Demo</title>
+    <link
+      rel="stylesheet"
+      href="./style/style.css"
+    />
+  </head>
+  <body>
+    <div class="logo">
+      <img src="./img/google-random-logo.png" />
+    </div>
+    <div class="content">
+      <div class="box">
+        <img class="box-img" />
+      </div>
+    </div>
+  </body>
+</html>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="./js/getRandomPhoto.js"></script>
+<script>
+  (async () => {
+    try {
+      const photoUrl = await getRandomPhoto({ query: 'nature' });
+      document.getElementsByTagName(
+        'body'
+      )[0].style = `background-image: url('${photoUrl}')`;
+    } catch (err) {
+      console.error('Eroare: ', err);
+    }
+  })();
+</script>
+
+<script>
+  (async () => {
+    try {
+      const boxImgUrl = await getRandomPhoto({ query: 'technology' });
+      document.getElementsByClassName('box-img')[0].src = boxImgUrl;
+    } catch (err) {
+      console.error('Eroare: ', err);
+    }
+  })();
+</script>
