@@ -4,3 +4,25 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+#myheader {
+    text-align: center;
+    color: #c1be1f;
+}
+.container {
+    text-align: center;
+}
+.center-button {
+    padding: 10px 20;
+    font-size: 16px;
+    background-color:black;
+    color:antiquewhite;
+    cursor:pointer;
+    border: none;
+    border-radius: 50%;
+}
+.alpha {
+    display:block;
+    margin:0 auto;
+    width: 300;
+    height: 300;
+}
